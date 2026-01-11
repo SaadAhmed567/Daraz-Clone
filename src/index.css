@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #f85606; /* Daraz Orange */
+  --color-secondary: #0f1111;
+}
+
+body {
+  @apply bg-gray-50 text-gray-800;
+}
