@@ -1,8 +1,8 @@
-import React, { useState } from ;
-import { Routes, Route } from ;
-import Navbar from ;
-import Home from ;
-import ProductDetail from ;
+import React, { useState } from 'react' ;
+import { Routes, Route } from 'react-router-dom' ;
+import Navbar from './components/Navbar' ;
+import Home from './pages/Home' ;
+import ProductDetail from './pages/ProductDetail' ;
 
 function App() {
   const [searchTerm, setSearchTerm] = useState('');
